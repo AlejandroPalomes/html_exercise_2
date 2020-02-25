@@ -26,6 +26,7 @@
 }
 
 .introduction {
+    margin: auto;
     flex-direction: column;
     align-items: center;
     /* padding: 15px 400px; */
@@ -34,8 +35,12 @@
 
 .introduction-description{
     text-align: center;
+    line-height: 0.85cm;
+    font-size: 14px;
 }
 
 h1{
     text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
 }
