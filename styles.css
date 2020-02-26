@@ -2,7 +2,7 @@
     border: 1px solid red;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
-
+/* ---- HELPERS ---- */
 .d-flex{
     display: flex;
 }
@@ -11,22 +11,33 @@
     align-items: center;
 }
 
-.header{
-    justify-content: space-between;
-}
-
-.margin-border{
-    padding: 5px 15px;
-}
-
 .center-fit {
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
 }
 
+.margin-border{
+    padding: 5px 15px;
+}
+
+.secondary-title{
+    font-weight: 900;
+}
+
+/* ---- OTHERS ---- */
+
+.header{
+    justify-content: space-between;
+}
+
+.profile-pic{
+    margin: 10px 0px;
+}
+
 .introduction {
-    margin: auto;
+    margin: 50px auto;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
     /* padding: 15px 400px; */
@@ -35,7 +46,7 @@
 
 .introduction-description{
     text-align: center;
-    line-height: 0.85cm;
+    line-height: 0.75cm;
     font-size: 14px;
 }
 
@@ -43,4 +54,38 @@ h1{
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
+}
+
+.contact-buttons{
+    font-size: 14px;
+    /* justify-content: center; */
+    /* padding: 50px 0px; */
+}
+
+.services-section{
+    width: 950px;
+    margin: 10px auto;
+    flex-direction: column;
+}
+
+.services-title{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.service-examples{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.example-1{
+    width: 300px;
+}
+
+.example-2{
+    width: 300px;
+}
+
+.example-3{
+    width: 300px;
 }
