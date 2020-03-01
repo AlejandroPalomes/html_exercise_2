@@ -28,6 +28,27 @@
 /* ---- OTHERS ---- */
 
 .header{
+    /* height: 30px; */
+    position: fixed;
+    padding: 7px 0px;
+    background-color: #c6b6e4;
+    font-size: 12px;
+    text-decoration: underline;
+    color: black;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.CTA-phone{
+    color: black;
+    text-align: center;
+}
+
+.CTA-mail{
+    color: black;
+}
+
+.menu{
     justify-content: space-between;
 }
 
