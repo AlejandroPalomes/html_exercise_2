@@ -30,6 +30,35 @@
     font-size: 12px;
 }
 
+
+.info-text{
+    text-decoration: none;
+    color: black;
+}
+
+.link-div{
+    width: 65px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.info-button{
+    background-color: #c6b6e4;
+    border-radius: 25px;
+    padding: 0px 5px;
+    align-content: center;
+    justify-content: center;
+    /* text-decoration: none; */
+}
+
+.low-margin{
+    padding: 0px 0px 6px 0px;
+}
+
+.basic-text{
+    color: black;
+    text-decoration: none;
+}
 /* ---- OTHERS ---- */
 
 .header{
@@ -50,18 +79,20 @@
 .CTA-phone{
     color: black;
     text-align: center;
+    padding: 0px 15px;
 }
 
 .CTA-mail{
     color: black;
+    padding: 0px 15px;
+}
+
+.profile-pic{
+    padding: 0px 15px;
 }
 
 .menu{
     justify-content: space-between;
-}
-
-.profile-pic{
-    margin: 10px 0px;
 }
 
 .introduction {
@@ -94,7 +125,7 @@ h1{
 }
 
 .button1{
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 8px;
     background-color: #e7ebee;
     color: black;
@@ -108,7 +139,7 @@ h1{
 }
 
 .button2{
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 8px;
     background-color: #5321a8;
     color: white;
@@ -128,6 +159,7 @@ h1{
 .services-title{
     font-size: 20px;
     font-weight: 900;
+    margin: 10px 0px;
 }
 
 .service-examples{
@@ -137,17 +169,60 @@ h1{
 
 .example-1{
     width: 300px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border-color: blue; */
 }
 
 .example-2{
     width: 300px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .example-3{
-    width: 300p#e7ebeex;
-}
-
-.exemple-1-text{
+    width: 300px;
+    height: 450px;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.example-text{
+    flex-direction: column;
+    height: 130px;
+    justify-content: flex-start;
+    /* border-color: chartreuse; */
+}
+
+.allergies-box{
+    /* flex-flow: unset; */
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.allergies-img{
+    object-fit: cover;
+    opacity: 40%;
+    border-radius: 5px;
+}
+
+.allergies-text-box{
+    position: absolute;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.allergies-text{
+    font-weight: 900;
+    font-size: 20px;
+    /* position: absolute; */
+}
+
+.allergies-text2{
+    font-size: 13px;
+    /* position: absolute; */
 }
